@@ -8,19 +8,18 @@ body {
 .container-1 {
     background-color: #1f2937;
     display: flex;
-    padding: 20px;
-
+    padding: 50px;
 }
-
 
 .header {
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
     color: #f9faf8;
     font-weight: bold;
-    padding-left: 70px;
     display: inline-block;
     white-space: nowrap;
+    border: 2px white solid;
+    height: 30px;
 }
 
 ul, a {
@@ -29,21 +28,16 @@ ul, a {
     font-size: 18px;
     color: #e5e7eb;
     position: absolute; top: 0px; right: 0px;
-    
-    
-    
 }
 
 .center {
-    align-items: center;
     justify-content: center;
-    display: flex;
     font-family: 'Times New Roman', Times, serif;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 10px;
+    border: 2px white solid;
 }
-
-
 
 .font1 {
     font-weight: bolder;
@@ -58,11 +52,70 @@ button {
     border-radius: 12px;
     border: 2px solid #3882f6;
     padding: 8px;
+}
+
+.main {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-2 {
+    padding: 40px;
+}
+
+.card {
+    float: left;
+    padding: 0 10px;
+}
+
+.container-3 {
+    background-color: #e5e7eb;
+    padding: 100px;
     
 }
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.author {
+font-weight: bold;
+position: absolute; right: 175px;
+font-size: 20px;
+}
+
+.updates {
+    background-color: #3882f6;
+    justify-content: center;
+    margin: 100px;
+    padding: 45px;
+    color: #f9faf8;
+    border-radius: 6px;
+}   
+
+.signup {
+    border: 2px white solid;
+    position: absolute; right: 175px; 
+}
+
+.font2 {
+font-weight: bold;
+}
+
 
 img {
     height: 200px;
     width: auto;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
